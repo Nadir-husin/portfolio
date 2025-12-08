@@ -1,0 +1,110 @@
+
+
+
+
+:root{
+  --red:#DC4492;
+  --yellow:#FDCC49;
+  --blue:#2CBCE9;
+  --gradient-rainbow:linear-gradient(81.66deg, #00B5EE 7.21%, #FF45A4 45.05%, #FFBA00 78.07%);
+  --gradient-rainblue:linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%);
+}
+
+
+.landing-parent{
+    align-items: center;
+}
+.landing-image {
+  width: 550px;
+  max-height: 600px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  position: relative; 
+  z-index: 0;
+}
+
+.landing-image img {
+  width: 100%;
+  max-height: 600px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  object-fit: cover;
+  z-index: 1; 
+  position: relative; 
+}
+
+@media (min-width:1025px ){
+.landing-image:before {
+  content: "";
+  position: absolute;
+  display: block; 
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--red);
+  top: -50px;
+  left: -70px;
+  z-index: 0; 
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+}
+
+.landing-desc{
+    line-height: 40px;
+}
+.landing-desc h2 span {
+    position: relative;
+    display: inline-block; 
+     color: black;
+     z-index: 1;
+}
+.landing-desc h2 span::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: -40px;
+    width: 150%;
+    height: 140%;
+    background: url("../assets/brush.png") no-repeat center/cover;
+    z-index: -1;
+}
+
+@media (max-width : 768px) {
+        .landing-desc h2 span::before{
+            display: none;
+        }
+        .landing-desc h2 span{
+            color: white;
+        }
+        .landing-desc{
+             line-height: 30px;
+}
+}
+
+
+.landing-desc button{
+    background: var(--gradient-rainbow);
+    border: none;
+    color: black;
+    padding: 6px 40px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition:  0.4s ease;
+}
+.landing-desc .otherbtn{
+    background: none;
+    border: 1px solid var(--red);
+    color: white;
+    font-weight: 300;
+
+}
+.landing-desc button:hover{
+    color: white;
+}
+.landing-desc .otherbtn:hover{
+    color: var(--red);
+}

@@ -14,10 +14,8 @@
 
 }
 .app {
-  height: 100%;
   background-color: #010026;
-  color: white;
-}
+  color: white;}
 a{
   text-decoration: none;
   color: white;
@@ -25,6 +23,9 @@ a{
 }
 .navbar-toggler-icon {
   filter: brightness(0) invert(1); 
+}
+.custom-toggler{
+  background-color: var(--red);
 }
 a:hover{
   color: var(--yellow);  
