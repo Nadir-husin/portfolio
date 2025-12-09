@@ -3,6 +3,7 @@ import Landing from "./scenes/Landing";
 import Navbarr from "./scenes/Navbar";
 import { useEffect } from "react";
 import Skills from "./scenes/Skills";
+import Projects from "./scenes/Projects";
 
 function App() {
   useEffect(() =>{
@@ -17,6 +18,8 @@ function App() {
         <Landing/>
         <Linegradient />
         <Skills/>
+        <Linegradient />
+        <Projects/>
     </div>
   );
 }

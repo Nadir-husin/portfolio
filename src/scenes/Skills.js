@@ -18,7 +18,7 @@ const Skills = () =>{
                 visible : {opacity : 1 , x: 0}
             }} >
                 <div className='w-50 mx-auto mx-xl-0'>
-                <h3 className='fs-1 fst-italic text-center text-xl-start'>MY <span style={{color : "#DC4492"}}>SKILLS </span></h3>
+                <h3 className='fs-1 fst-italic text-center text-xl-start'>SKI<span style={{color : "#DC4492"}}>LLS </span></h3>
                 <Linegradient />
                 </div>
 
@@ -40,7 +40,7 @@ const Skills = () =>{
             viewport={{once :true , amount : 0.5 }}
             transition={{ duration: 0.5 }}
             variants={{
-                hidden : {opacity : 0 , x: 50},
+                hidden : {opacity : 0 , x: -50},
                 visible : {opacity : 1 , x: 0}
             }}>
                 <div className='landing-image skills-image-parent '>

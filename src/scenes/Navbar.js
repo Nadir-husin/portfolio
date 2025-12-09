@@ -34,7 +34,6 @@ const Navbarr = ()=>{
                         <AnchorLink href="#home" className='' >Home</AnchorLink>
                         <AnchorLink href="#skills">Skills</AnchorLink>
                         <AnchorLink href="#projects">Projects</AnchorLink>
-                        <AnchorLink href="#testimonials">Testimonials</AnchorLink>
                         <AnchorLink href="#contact">Contact</AnchorLink>
                     </Nav>
                     </Navbar.Collapse>
