@@ -2,10 +2,11 @@ import Linegradient from "./components/LineGradient";
 import Landing from "./scenes/Landing";
 import Navbarr from "./scenes/Navbar";
 import { useEffect } from "react";
+import Skills from "./scenes/Skills";
 
 function App() {
   useEffect(() =>{
-    document.title ="My Portfolio";
+    document.title ="NH Portfolio";
   },[])
 
 
@@ -15,6 +16,7 @@ function App() {
         <Navbarr/>
         <Landing/>
         <Linegradient />
+        <Skills/>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import "./landing.css";
+import "./styles/landing.css";
 import landing from "../assets/landing.jpg";
 import { motion } from "motion/react"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
@@ -42,7 +42,7 @@ const Landing = () => {
           initial={{ opacity: 0, x: -40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay :0.2 ,duration: 0.5 }} >
-                    <AnchorLink href="#contact" >  <button >Contact Me</button></AnchorLink>
+                    <AnchorLink href="#contact" > <button >Contact Me</button></AnchorLink>
                     <AnchorLink href="#contact" ><button className="otherbtn" >Let's talk</button></AnchorLink>
           </motion.div>
 

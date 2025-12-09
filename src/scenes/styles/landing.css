@@ -31,6 +31,11 @@
   object-fit: cover;
   z-index: 1; 
   position: relative; 
+  filter:saturate(100%);
+  transition: 0.3s ease;
+}
+.landing-image img:hover{
+    filter: saturate(200%);
 }
 
 @media (min-width:1025px ){
@@ -66,7 +71,7 @@
     left: -40px;
     width: 150%;
     height: 140%;
-    background: url("../assets/brush.png") no-repeat center/cover;
+    background: url("../../assets/brush.png") no-repeat center/cover;
     z-index: -1;
 }
 
