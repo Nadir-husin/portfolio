@@ -93,7 +93,7 @@ const Projects = () =>{
                         visible : {opacity : 1 ,scale : 1}
                          }}>
                     <a 
-                    href="https://nadir-husin.github.io/To-do-app-react/"
+                    href=" https://nadir-husin.github.io/Kas/"
                     target="_blank"
                     rel="noopener noreferrer">
                         <img src={kas}  alt="Kas"/>
