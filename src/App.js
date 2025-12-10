@@ -4,6 +4,8 @@ import Navbarr from "./scenes/Navbar";
 import { useEffect } from "react";
 import Skills from "./scenes/Skills";
 import Projects from "./scenes/Projects";
+import Contact from "./scenes/Contact";
+import Footer from "./scenes/footer";
 
 function App() {
   useEffect(() =>{
@@ -13,13 +15,16 @@ function App() {
 
 
   return (
-    <div className="app py-4">
+    <div className="app">
         <Navbarr/>
         <Landing/>
         <Linegradient />
         <Skills/>
         <Linegradient />
         <Projects/>
+        <Linegradient />
+        <Contact/>
+        <Footer/>
     </div>
   );
 }

@@ -40,8 +40,8 @@ const Skills = () =>{
             viewport={{once :true , amount : 0.5 }}
             transition={{ duration: 0.5 }}
             variants={{
-                hidden : {opacity : 0 , x: -50},
-                visible : {opacity : 1 , x: 0}
+                        hidden : {opacity : 0 ,scale : 0.8},
+                        visible : {opacity : 1 ,scale : 1}
             }}>
                 <div className='landing-image skills-image-parent '>
                     <img src={skillsimg} alt="skills img " className='skills-img'/>

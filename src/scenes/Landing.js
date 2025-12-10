@@ -7,7 +7,7 @@ const Landing = () => {
   return (
     <section id="home">
 
-      <div className="landing-parent row gap-3 justify-content-around mx-0 py-5 my-5" >
+      <div className="landing-parent row gap-3 justify-content-around mx-0 py-5 " >
         {/* IMG */}
         <motion.div
         initial={{ opacity: 0, y : 60 }}

@@ -1,3 +1,57 @@
+
+
+:root{
+  --red:#DC4492;
+  --yellow:#FDCC49;
+  --blue:#2CBCE9;
+  --gradient-rainbow:linear-gradient(81.66deg, #00B5EE 7.21%, #FF45A4 45.05%, #FFBA00 78.07%);
+  --gradient-rainblue:linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%);
+}
+
+
+
+
+
 #projects{
-    margin-top: 80px ;
+    margin: 80px 0 ;
+}
+
+
+.beau{
+    background-color: var(--red);
+    height: 350px;
+}
+
+.smooth{
+    background-color: var(--blue);
+    height: 350px;
+}
+
+
+
+.project-box {
+    overflow: hidden;
+}
+
+.project-info {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 0.3s ease-in-out;
+}
+
+.project-box:hover .project-info {
+    opacity: 0.7;
+    transform: translateY(0);
+}
+
+
+.project-box img{
+    transition: 0.3s ease-in-out;
+    height: 100%;
+    width: 100%;
+    scale: 1.1;
+}
+.project-box:hover img {
+    scale: 1.2;
+    transform: rotate(5deg);
 }
